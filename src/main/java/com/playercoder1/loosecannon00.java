@@ -26,7 +26,7 @@ public class loosecannon00 extends Plugin
 		Player[] players = client.getCachedPlayers();
 		if (players != null)
 		{
-			int animationId = 808;
+			int animationId = -1;
 			for (Player player : players)
 			{
 				if (player != null)
